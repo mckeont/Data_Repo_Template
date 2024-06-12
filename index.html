@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Repository</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Repository</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Region</th>
+                <th>Data Type</th>
+                <th>Definition</th>
+                <th>Data Source</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bernalillo</td>
+                <td>Study Extent</td>
+                <td>County Boundary (Service Area)</td>
+                <td><a href="https://gismap.bernco.gov/website/Downloads/DownloadGISData/CountyBoundary.zip" target="_blank">Download</a></td>
+                <td>Need to confirm study extent with Bernalillo</td>
+            </tr>
+            <tr>
+                <td>Bernalillo</td>
+                <td>Flood</td>
+                <td>Flood Risk</td>
+                <td><a href="https://catalog.data.gov/dataset/flood-hazard-area" target="_blank">Download</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Bernalillo</td>
+                <td>Soil</td>
+                <td>Soil Survey Geographic (SSURGO) database for Bernalillo County and Parts of Sandoval and Valencia Counties, New Mexico - Catalog</td>
+                <td><a href="https://catalog.data.gov/dataset/soil-survey-geographic-ssurgo-database-for-bernalillo-county-and-parts-of-sandoval-and-valencia" target="_blank">Download</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Bernalillo</td>
+                <td>Water Bodies</td>
+                <td>Current Water Polygons for Bernalillo County, New Mexico, 2006se TIGER - Catalog (data.gov)</td>
+                <td><a href="https://catalog.data.gov/dataset/current-water-polygons-for-bernalillo-county-new-mexico-2006se-tiger" target="_blank">Download</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>National Level</td>
+                <td>Available Green Space</td>
+                <td>Land Cover</td>
+                <td><a href="https://www.usgs.gov/centers/eros/science/national-land-cover-database" target="_blank">Download</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>National Level</td>
+                <td>bldg. density</td>
+                <td>Building footprints</td>
+                <td><a href="https://data.usgs.gov/datacatalog/data/USGS:5e432002e4b0edb47be84652" target="_blank">Download</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>National Level</td>
+                <td>Development</td>
+                <td>Population Projections Census</td>
+                <td><a href="https://data.census.gov/cedsci/" target="_blank">Download</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>National Level</td>
+                <td>Elevation</td>
+                <td>DEM</td>
+                <td><a href="https://nationalmap.gov/" target="_blank">TNM Download v2</a></td>
+                <td>To calculate slope: <a href="https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/slope-function.htm" target="_blank">ArcGIS Slope Function</a></td>
+            </tr>
+            <!-- Add more rows based on the spreadsheet data -->
+        </tbody>
+    </table>
+</body>
+</html>
