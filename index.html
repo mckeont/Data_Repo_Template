@@ -11,6 +11,15 @@
             padding: 20px;
             background-color: #f4f4f4;
         }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            margin: 0 -20px 10px -20px;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -33,159 +42,192 @@
 </head>
 <body>
     <h1>Water Center Data Repository</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Region</th>
-                <th>Data Type</th>
-                <th>Definition</th>
-                <th>Data Source</th>
-                <th>Notes</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>National Level</td>
-                <td>Available Green Space</td>
-                <td>Land Cover</td>
-                <td><a href="https://www.usgs.gov/centers/eros/science/national-land-cover-database" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National Level</td>
-                <td>bldg. density</td>
-                <td>Building footprints</td>
-                <td><a href="https://data.usgs.gov/datacatalog/data/USGS:5e432002e4b0edb47be84652" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National Level</td>
-                <td>Development</td>
-                <td>Population Projections Census</td>
-                <td><a href="https://data.census.gov/cedsci/" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National Level</td>
-                <td>Elevation</td>
-                <td>DEM</td>
-                <td><a href="https://msc.fema.gov/portal/advanceSearch" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National Level</td>
-                <td>EJ Screening</td>
-                <td>Vulnerability and Climate Impact</td>
-                <td><a href="https://screeningtool.geoplatform.gov/en/#3/33.47/-97.5" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National Level</td>
-                <td>Flood Risk</td>
-                <td>FEMA</td>
-                <td><a href="https://nationalmap.gov/" target="_blank">Download</a></td>
-                <td><a href="https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/slope-function.htm" target="_blank">How to calculate slope</a></td>
-            </tr>
-            <tr>
-                <td>Philadelphia</td>
-                <td>GeoJSON</td>
-                <td>Watershed Boundaries</td>
-                <td><a href="https://opendata.arcgis.com/datasets/73f97f2c6c634469a81dd7721661b63f_0.geojson" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Bernalillo</td>
-                <td>Study Extent</td>
-                <td>County Boundary (Service Area)</td>
-                <td><a href="https://gismap.bernco.gov/website/Downloads/DownloadGISData/CountyBoundary.zip" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Bernalillo</td>
-                <td>Flood</td>
-                <td>Flood Risk</td>
-                <td><a href="https://catalog.data.gov/dataset/flood-hazard-area" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Bernalillo</td>
-                <td>Soil</td>
-                <td>Soil Survey Geographic (SSURGO) database for Bernalillo County and Parts of Sandoval and Valencia Counties, New Mexico - Catalog</td>
-                <td><a href="https://catalog.data.gov/dataset/soil-survey-geographic-ssurgo-database-for-bernalillo-county-and-parts-of-sandoval-and-valencia" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Bernalillo</td>
-                <td>Water Bodies</td>
-                <td>Current Water Polygons for Bernalillo County, New Mexico, 2006se TIGER - Catalog (data.gov)</td>
-                <td><a href="https://catalog.data.gov/dataset/current-water-polygons-for-bernalillo-county-new-mexico-2006se-tiger" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National</td>
-                <td>Vulnerability</td>
-                <td>Wastewater disadvantage measurement</td>
-                <td><a href="https://msc.fema.gov/portal/advanceSearch" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National</td>
-                <td>Force Multiplier</td>
-                <td>Sea Level Rise</td>
-                <td><a href="https://coast.noaa.gov/slrdata/" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National</td>
-                <td>Vulnerability</td>
-                <td>Climate and Economic Justice Screening Tool</td>
-                <td><a href="https://screeningtool.geoplatform.gov/en/methodology" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National</td>
-                <td>Rainfall</td>
-                <td>Weather.gov</td>
-                <td><a href="https://www.weather.gov/marfc/DailyPrecipitation" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National</td>
-                <td>Vulnerability</td>
-                <td>EJScreen</td>
-                <td><a href="https://www.epa.gov/ejscreen" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National</td>
-                <td>Rainfall</td>
-                <td>Precipitation Change</td>
-                <td><a href="https://nca2014.globalchange.gov/report/our-changing-climate/precipitation-change#intro-section-2" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National</td>
-                <td>Rainfall</td>
-                <td>Precipitation Measurements</td>
-                <td><a href="https://hdsc.nws.noaa.gov/pfds/" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National</td>
-                <td>Hydrology</td>
-                <td>Major Waterways</td>
-                <td><a href="https://apps.nationalmap.gov/downloader/" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>National</td>
-                <td>Subsurface</td>
-                <td>Soil Data from USDA</td>
-                <td><a href="https://websoilsurvey.nrcs.usda.gov/app/WebSoilSurvey.aspx" target="_blank">Download</a></td>
-                <td></td>
-            </tr>
-            <!-- Add more rows based on the spreadsheet data -->
-        </tbody>
-    </table>
+
+    <section>
+        <h2>National Level</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data Type</th>
+                    <th>Definition</th>
+                    <th>Data Source</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Available Green Space</td>
+                    <td>Land Cover</td>
+                    <td><a href="https://www.usgs.gov/centers/eros/science/national-land-cover-database" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>bldg. density</td>
+                    <td>Building footprints</td>
+                    <td><a href="https://data.usgs.gov/datacatalog/data/USGS:5e432002e4b0edb47be84652" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Development</td>
+                    <td>Population Projections Census</td>
+                    <td><a href="https://data.census.gov/cedsci/" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Elevation</td>
+                    <td>DEM</td>
+                    <td><a href="https://msc.fema.gov/portal/advanceSearch" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>EJ Screening</td>
+                    <td>Vulnerability and Climate Impact</td>
+                    <td><a href="https://screeningtool.geoplatform.gov/en/#3/33.47/-97.5" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Flood Risk</td>
+                    <td>FEMA</td>
+                    <td><a href="https://nationalmap.gov/" target="_blank">Download</a></td>
+                    <td><a href="https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/slope-function.htm" target="_blank">How to calculate slope</a></td>
+                </tr>
+                <tr>
+                    <td>Vulnerability</td>
+                    <td>Wastewater disadvantage measurement</td>
+                    <td><a href="https://msc.fema.gov/portal/advanceSearch" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Force Multiplier</td>
+                    <td>Sea Level Rise</td>
+                    <td><a href="https://coast.noaa.gov/slrdata/" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Vulnerability</td>
+                    <td>Climate and Economic Justice Screening Tool</td>
+                    <td><a href="https://screeningtool.geoplatform.gov/en/methodology" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Rainfall</td>
+                    <td>Weather.gov</td>
+                    <td><a href="https://www.weather.gov/marfc/DailyPrecipitation" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Vulnerability</td>
+                    <td>EJScreen</td>
+                    <td><a href="https://www.epa.gov/ejscreen" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Rainfall</td>
+                    <td>Precipitation Change</td>
+                    <td><a href="https://nca2014.globalchange.gov/report/our-changing-climate/precipitation-change#intro-section-2" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Rainfall</td>
+                    <td>Precipitation Measurements</td>
+                    <td><a href="https://hdsc.nws.noaa.gov/pfds/" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Hydrology</td>
+                    <td>Major Waterways</td>
+                    <td><a href="https://apps.nationalmap.gov/downloader/" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Subsurface</td>
+                    <td>Soil Data from USDA</td>
+                    <td><a href="https://websoilsurvey.nrcs.usda.gov/app/WebSoilSurvey.aspx" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Subsurface</td>
+                    <td>Soil Characteristics from Data.gov</td>
+                    <td><a href="https://catalog.data.gov/dataset/usgs-water-quality-data-for-the-nation-national-water-information-system-nwis" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Water Quality</td>
+                    <td>USGS National Data</td>
+                    <td><a href="https://catalog.data.gov/dataset/usgs-water-quality-data-for-the-nation-national-water-information-system-nwis" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Boundary</td>
+                    <td>Watersheds</td>
+                    <td><a href="https://catalog.data.gov/dataset/watershed-boundary-dataset-wbd-usgs-national-map-downloadable-data-collection" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Philadelphia</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data Type</th>
+                    <th>Definition</th>
+                    <th>Data Source</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>GeoJSON</td>
+                    <td>Watershed Boundaries</td>
+                    <td><a href="https://opendata.arcgis.com/datasets/73f97f2c6c634469a81dd7721661b63f_0.geojson" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Bernalillo</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data Type</th>
+                    <th>Definition</th>
+                    <th>Data Source</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Study Extent</td>
+                    <td>County Boundary (Service Area)</td>
+                    <td><a href="https://gismap.bernco.gov/website/Downloads/DownloadGISData/CountyBoundary.zip" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Flood</td>
+                    <td>Flood Risk</td>
+                    <td><a href="https://catalog.data.gov/dataset/flood-hazard-area" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Soil</td>
+                    <td>Soil Survey Geographic (SSURGO) database for Bernalillo County and Parts of Sandoval and Valencia Counties, New Mexico - Catalog</td>
+                    <td><a href="https://catalog.data.gov/dataset/soil-survey-geographic-ssurgo-database-for-bernalillo-county-and-parts-of-sandoval-and-valencia" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Water Bodies</td>
+                    <td>Current Water Polygons for Bernalillo County, New Mexico, 2006se TIGER - Catalog (data.gov)</td>
+                    <td><a href="https://catalog.data.gov/dataset/current-water-polygons-for-bernalillo-county-new-mexico-2006se-tiger" target="_blank">Download</a></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
 </body>
 </html>
